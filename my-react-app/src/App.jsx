@@ -5,6 +5,7 @@ import Card from './Card.jsx';
 import Button from './Button.jsx';
 import Student from './Student.jsx';
 import UserGreeting from './UserGreeting.jsx';
+import List from './List.jsx';
 
 import apple from './assets/apple.png';
 import orange from './assets/orange.webp';
@@ -13,6 +14,7 @@ function App() {
   return(<>
     <Header></Header>
     <UserGreeting isLoggedIn={true} username="Maesha"></UserGreeting>
+    <List></List>
 
     <Card 
       name="Apple" 
