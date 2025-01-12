@@ -6,6 +6,7 @@ import Button from './Button.jsx';
 import Student from './Student.jsx';
 import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx';
+import ProfilePicturej from './ProfilePicture.jsx';
 
 import apple from './assets/apple.png';
 import orange from './assets/orange.webp';
@@ -13,6 +14,7 @@ import orange from './assets/orange.webp';
 function App() {
   return(<>
     <Header></Header>
+    <ProfilePicturej></ProfilePicturej>
     <UserGreeting isLoggedIn={true} username="Maesha"></UserGreeting>
     <List></List>
 

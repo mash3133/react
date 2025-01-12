@@ -10,17 +10,17 @@ function Card(props){
     );
 }
 
-Card.PropTypes = {
+Card.propTypes = {
     name: PropTypes.string,
     image: PropTypes.string,
     color: PropTypes.string,
     price: PropTypes.number
 }
 
-Card.defaultProps = {
-    name: "Fruit",
-    color: "black",
-    price: 1
-}
+// Card.defaultProps = {
+//     name: "Fruit",
+//     color: "black",
+//     price: 1
+// }
  
 export default Card;

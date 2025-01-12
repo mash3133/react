@@ -6,7 +6,7 @@ function List(){
                     {id:4,name: "coconut", calories: 354}, 
                     {id:5, name: "pineaple", calories: 37} ];
     fruits.sort((a,b) => a.name.localeCompare (b.name));
-    fruit.sort((a,b)=> a.calories - b.calories);
+    fruits.sort((a,b)=> a.calories - b.calories);
     const fruitItems = fruits.map (fruits => <li key={fruits.id}>
                                     {fruits.name}: &nbsp;
                                     <b>{fruits.calories}</b></li>); 
