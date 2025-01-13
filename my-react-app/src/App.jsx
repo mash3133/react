@@ -6,7 +6,9 @@ import Button from './Button.jsx';
 import Student from './Student.jsx';
 import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx';
-import ProfilePicturej from './ProfilePicture.jsx';
+import ProfilePicture from './ProfilePicture.jsx';
+import MyComponent from './MyComponent.jsx';
+import Counter from './Counter.jsx'; 
 
 import apple from './assets/apple.png';
 import orange from './assets/orange.webp';
@@ -14,7 +16,9 @@ import orange from './assets/orange.webp';
 function App() {
   return(<>
     <Header></Header>
-    <ProfilePicturej></ProfilePicturej>
+    <Counter></Counter>
+    <MyComponent></MyComponent>
+    {/* <ProfilePicture></ProfilePicture> */}
     <UserGreeting isLoggedIn={true} username="Maesha"></UserGreeting>
     <List></List>
 
